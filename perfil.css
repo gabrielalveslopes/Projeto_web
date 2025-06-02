@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(51, 23, 0);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(46, 40, 40, 0.1);
+    position: static;
+    top: 0;
+    z-index: 100;
+    height: 100px;
+    width: 100%;
+  }
+
+body {
+  background-color: #fffcdf;
+  text-align: center;
+}
+
+/* Área de perfil no topo */
+.ContainerHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#butaosair{
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#ContainerHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.logo-img{
+  height: 50px;
+}
+
+header p{
+  color: rgb(255, 255, 242)
+}
+span {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.ContainerHeader button {
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ContainerHeader button:hover {
+  background-color: #b8952c;
+}
+
+/* Conteúdo principal */
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* Título */
+main h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #b74f4f;
+}
+
+.form-box{
+  max-height: 300px;
+}
+/* Informações do usuário */
+.HeadInfo{
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  padding-left: 0.5rem;
+  border-left: 4px solid #ffc9c9;
+  text-align: left;
+}
+
+.botoesPerfis{
+  align-self: flex-end;
+}
+#botaoeditar{
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.infoContainer{
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  padding-left: 0.5rem;
+  text-align: left;
+}
+
+#botaoEditar{
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#container-contato {
+  width: 100px;
+  padding-left: 20px;
+  padding-top: 0;
+  position: relative; 
+  left: 0;          
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(255, 255, 242);
+  width: 100%;
+ 
+  
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex: 1 0 auto;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 55px;
+  background-color: rgb(51, 23, 0);
+  margin-top: auto;
+}
+img {
+  height: 50px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#redirecionamentos{
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

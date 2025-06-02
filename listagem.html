@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Listagem de Registros</title>
+  <link rel="stylesheet" href="listagem.css">
+</head>
+<body>
+<header>
+  <a href="index.html">
+    <img src="Imagens/livros cristões.png" alt="Logo da Livrinhos Cristões" class="logo-img" id="logo"></img>
+  </a>
+  <h1>Listagem de Registros</h1>
+  <div id="redirecionamentos">
+    <a href="listagem.html" id="textoListagem"> 
+      <img src="Imagens/icons8-lista-64.png" alt="" id="perfil-link">
+    </a>
+    <a href="perfil.html" id="fotoPerfil"> 
+      <img src="Imagens/fotoPerfil.png" alt="" id="perfil-link">
+    </a>
+  </div>
+</header>
+<br>
+<input 
+  type="text" 
+  id="busca" 
+  placeholder="Buscar por nome ou email..." 
+  oninput="filtrarTabela()"
+  style="padding: 8px; margin-top: 10px; width: 300px; padding-left: 10px;"
+>
+<br><br>
+  <table id="tabela">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Senha</th>
+        <th>CPF</th>
+        <th>Data de Nascimento</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Dados serão inseridos aqui -->
+    </tbody>
+  </table>
+  <footer>
+    <div id="container-contato">
+      <p id="contato">Contato:</p> 
+      <a href="mailto:livrinhoscristoes@gmail.com" >
+      <img src="https://img.icons8.com/fluent/512/gmail-new.png" alt="">
+      </a>
+      <a href="https://www.instagram.com/livrinhoscristoes/?next=%2F">
+        <img src="Imagens/Adobe Express - file.png" alt="">
+      </a>
+    </div>
+
+  </footer>
+  <script src="listagem.js"></script>
+</body>
+</html>

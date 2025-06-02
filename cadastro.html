@@ -8,20 +8,25 @@
 </head>
 <body>
   <header>
-    <a href="index.html" class="logo-link">
-        <img src="images.jpg" alt="Joias Elegance" class="logo-img" />
-      </a>
+      <img src="Imagens/livros cristões.png" alt="Logo da Livrinhos Cristões" class="logo-img" id="logo"></img>
+      <img src="Imagens/fotoPerfil.png" alt="" id="perfil-link">
   </header>
 
   <main>
-    <form class="form-box" action="#" method="post">
+    <form class="form-box" id="cadastro-form">
       <h2>Cadastro</h2>
-      <input type="text" placeholder="Nome Completo" required/>
-      <input type="email" placeholder="Email" required/>
-      <input type="password" placeholder="Senha" required/>
+      <input type="text" id="nome" placeholder="Nome Completo" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="senha" placeholder="Senha" required />
+      <input type="number" id="cpf" placeholder="Cpf" required />
+      <label for="dataNascimento">Data de Nascimento:</label>
+      <input type="date" id="dataNascimento" name="dataNascimento" required />
       <button type="submit">Cadastrar</button>
       <p>Já tem conta? <a href="login.html">Entrar</a></p>
+      
     </form>
   </main>
+
+  <script src="cadastro.js"></script>
 </body>
 </html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfil - Joias Elegance</title>
+  <link rel="stylesheet" href="perfil.css"/>
+</head>
+<body>
+  <header>
+    <div id="ContainerHeader">
+      <a href="index.html">
+        <img src="Imagens/livros cristões.png" alt="Logo da Livrinhos Cristões" class="logo-img" id="logo"></img>
+      </a>
+      <p id="perfilNome">Usuário</p>
+      <button onclick="logout()" id="butaosair">Sair</button>
+    </div>
+    <div id="redirecionamentos">
+      <a href="listagem.html" id="textoListagem"> 
+        <img src="Imagens/icons8-lista-64.png" alt="">
+      </a>
+      <a href="perfil.html" id="fotoPerfil"> 
+        <img src="Imagens/fotoPerfil.png" alt="" id="perfil-link">
+      </a>
+    </div>
+  </header>
+  <main>
+    <section class="form-box">
+      <h2>Meu Perfil</h2>
+      <div class="infoContainer">
+        <p class="HeadInfo"><strong>Nome:</strong> <span id="perfilNomeDetalhe"></span></p>       
+      </div>
+      <div class="infoContainer">
+        <p class="HeadInfo"><strong>Email:</strong> <span id="perfilEmail"></span></p>
+      </div>
+      <div class="infoContainer">
+        <p class="HeadInfo"><strong>Senha:</strong> <span id="perfilSenha"></span></p>
+      </div>
+      <div class="infoContainer">
+        <p class="HeadInfo"><strong>CPF:</strong> <span id="perfilCpf"></span></p>
+  
+      </div>
+      <div class="infoContainer">
+        <p class="HeadInfo"><strong>Data de Nascimento:</strong> <span id="perfilNascimento"></span></p>
+      </div>
+      <br>
+      <div id="botoesPerfis">
+        <button onclick="editar()" id="butaosair">Editar</button>
+      </div>
+
+    </section>
+  </main>
+
+
+    <footer>
+    <div id="container-contato">
+      <p id="contato">Contato:</p> 
+      <a href="mailto:livrinhoscristoes@gmail.com" >
+      <img src="https://img.icons8.com/fluent/512/gmail-new.png" alt="">
+      </a>
+      <a href="https://www.instagram.com/livrinhoscristoes/?next=%2F">
+        <img src="Imagens/Adobe Express - file.png" alt="">
+      </a>
+    
+    </div>
+
+  </footer>
+  <script src="perfil.js"></script>
+
+</body>
+</html>

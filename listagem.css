@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffcdf;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-color: rgb(51, 23, 0);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(46, 40, 40, 0.1);
+    position: static;
+    top: 0;
+    z-index: 100;
+    height: 100px
+  }
+
+
+.logo-img {
+  height: 50px;
+}
+
+h1 {
+  color: rgb(255, 255, 242);
+  margin: 0;
+  font-size: 2rem;
+}
+
+main {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  height: 30px;
+  padding: 14px 18px;
+  text-align: left;
+  font-size: 16px;
+}
+
+th {
+  background-color: #eee;
+  color: #222;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1e6d6;
+}
+
+button {
+  margin-right: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  transition: background 0.2s, opacity 0.2s;
+}
+
+button:first-of-type {
+  background-color: #3498db; /* Editar */
+}
+
+button:last-of-type {
+  background-color: #e74c3c; /* Excluir */
+}
+
+button:hover {
+  opacity: 0.85;
+}
+#container-contato {
+  width: 100px;
+  padding-left: 20px;
+  padding-top: 0;
+  position: relative; 
+  left: 0;          
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(255, 255, 242);
+  width: 100%;
+ 
+  
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main, table {
+  flex: 1 0 auto;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 55px;
+  background-color: rgb(51, 23, 0);
+  margin-top: auto;
+}
+img {
+  height: 50px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#redirecionamentos{
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-contato {
+  width: 100px;
+  padding-left: 20px;
+  padding-top: 0;
+  position: static; 
+  left: 0;          
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(255, 255, 242);
+  width: 100%;
+}

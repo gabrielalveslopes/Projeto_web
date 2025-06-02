@@ -1,111 +1,54 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Joias Elegance</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <title>Livrinhos Cristões</title>
+  <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
   <header>
-    <a href="index.html" class="logo-link">
-      <img src="images.jpg" alt="Joias Elegance" class="logo-img" />
+    <a href="index.html">
+      <img src="Imagens/livros cristões.png" alt="Logo da Livrinhos Cristões" class="logo-img" id="logo"></img>
     </a>
-  
-    <div class="header-center">
-      <input type="text" placeholder="Buscar joias..." class="search-bar" />
+    <h1 id="catalogo">Catálogo de Livros</h1>
+    <div id="redirecionamentos">
+      <a href="listagem.html" id="textoListagem"> 
+        <img src="Imagens/icons8-lista-64.png" alt="" id="perfil-link">
+      </a>
+      <a href="perfil.html" id="fotoPerfil"> 
+        <img src="Imagens/fotoPerfil.png" alt="" id="perfil-link">
+      </a>
     </div>
-  
-    <nav class="header-icons">
-      <a href="login.html" class="profile-icon" aria-label="Perfil">
-        <img src="perfil.png" alt="Perfil" class="icon-img" />
-      </a>
-      <a href="#" class="cart" aria-label="Carrinho">
-        🛒<span class="cart-count">0</span>
-      </a>
-    </nav>
+        
   </header>
 
   <main>
-    <section class="products">
-      <div class="product">
-        <img src="https://via.placeholder.com/200x150" alt="Anel de Ouro">
-        <h2>Anel de Ouro</h2>
-        <p>R$ 1.200,00</p>
-        <button class="add-to-cart" data-nome="Anel de Ouro" data-preço="R$ 1.200,00">Adicionar ao Carrinho</button>
-      </div>
-      </div>
-      <div class="product">
-        <img src="images (1).jpg" alt="Colar de Prata">
-        <h2>Colar de Prata borboleta</h2>
-        <p>R$ 850,00</p>
-        <button class="add-to-cart" data-nome="Colar de Prata borboleta" data-preço="R$ 850,00" >Adicionar ao Carrinho</button>
-      </div>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200x150" alt="Colar de Prata">
-        <h2>Anel de Ametista Oval</h2>
-        <p>R$ 850,00</p>
-        <button class="add-to-cart" data-nome="Anel de Ametista Oval" data-preço="R$ 850,00">Adicionar ao Carrinho</button>
-      </div>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200x150" alt="Colar de Prata">
-        <h2>Colar Mandala em Prata</h2>
-        <p>R$ 850,00</p>
-        <button class="add-to-cart" data-nome="Colar Mandala em Prata" data-preço="R$ 850,00">Adicionar ao Carrinho</button>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200x150" alt="Colar de Prata">
-        <h2>Brinco Longo com Cristais</h2>
-        <p>R$ 850,00</p>
-        <button class="add-to-cart" data-nome="Brinco Longo com Cristais" data-preço="R$ 850,00" >Adicionar ao Carrinho</button>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200x150" alt="Colar de Prata">
-        <h2>Pulseira Fina com Pingente de Estrela</h2>
-        <p>R$ 850,00</p>
-        <button class="add-to-cart" data-nome="Pulseira Fina com Pingente de Estrela" data-preço="R$ 850,00">Adicionar ao Carrinho</button>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200x150" alt="Colar de Prata">
-        <h2>Tornozeleira com Mini Pérolas</h2>
-        <p>R$ 850,00</p>
-        <button class="add-to-cart" data-nome="Tornozeleira com Mini Pérolas" data-preço="R$ 850,00" >Adicionar ao Carrinho</button>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200x150" alt="Colar de Prata">
-        <h2>Brinco com Topázio Azul</h2>
-        <p>R$ 850,00</p>
-        <button class="add-to-cart" data-nome="Brinco com Topázio Azul" data-preço="R$ 850,00">Adicionar ao Carrinho</button>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200x150" alt="Colar de Prata">
-        <h2>Colar Personalizado com Nome</h2>
-        <p>R$ 850,00</p>
-        <button class="add-to-cart" data-nome="Colar Personalizado com Nome" data-preço="R$ 850,00" >Adicionar ao Carrinho</button>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200x150" alt="Colar de Prata">
-        <h2>Pulseira de Prata com Olho Grego</h2>
-        <p>R$ 850,00</p>
-        <button class="add-to-cart" data-nome="Pulseira de Prata com Olho Grego" data-preço="R$ 850,00" >Adicionar ao Carrinho</button>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200x150" alt="Colar de Prata">
-        <h2>Brinco de Argola em Ouro 18k</h2>
-        <p>R$ 850,00</p>
-        <button class="add-to-cart" data-nome="Brinco de Argola em Ouro 18k" data-preço="R$ 850,00">Adicionar ao Carrinho</button>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200x150" alt="Colar de Prata">
-        <h2>Pingente de Coração Vazado</h2>
-        <p>R$ 850,00</p>
-        <button class="add-to-cart" data-nome="Pingente de Coração Vazado" data-preço="R$ 850,00" >Adicionar ao Carrinho</button>
-      </div>
-    </section>
-  </main>
+    <br><br>
+    <div id="container-textbox">
+      <input type="text" id="pesquisa" placeholder="Digite o nome do livro">
+      <button onclick="buscarLivros()">Buscar</button>
+    </div>
+    <br><br><br>
 
+  <div id="livros-container">
+
+  </div>
+  <br><br><br>
+  </main>
+  
+  <footer>
+    <div id="container-contato">
+      <p id="contato">Contato:</p> 
+      <a href="mailto:livrinhoscristoes@gmail.com" >
+      <img src="https://img.icons8.com/fluent/512/gmail-new.png" alt="">
+      </a>
+      <a href="https://www.instagram.com/livrinhoscristoes/?next=%2F">
+        <img src="Imagens/Adobe Express - file.png" alt="">
+      </a>
+    
+    </div>
+
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
