@@ -2,7 +2,7 @@ let dados = JSON.parse(localStorage.getItem('usuarios')) || [];
 
 const tabela = document.querySelector('#tabela tbody');
 
-// Renderiza a tabela
+// Renderizar tabela
 function renderizarTabela(lista) {
   tabela.innerHTML = '';
 
@@ -31,7 +31,7 @@ function renderizarTabela(lista) {
   });
 }
 
-// 🔍 Filtro por nome OU email
+// Filtro por nome ou email
 function filtrarTabela() {
   const termo = document.getElementById('busca').value.toLowerCase().trim();
 
@@ -43,7 +43,7 @@ function filtrarTabela() {
   renderizarTabela(filtrados);
 }
 
-// ✏️ Editar registro
+// Editar registro
 function editarRegistro(index) {
   const registro = dados[index];
 
@@ -66,7 +66,7 @@ function editarRegistro(index) {
   }
 }
 
-// ❌ Excluir registro
+// Excluir registro
 function excluirRegistro(index) {
   const confirmar = confirm('Tem certeza que deseja excluir este registro?');
   if (confirmar) {
@@ -77,11 +77,11 @@ function excluirRegistro(index) {
   }
 }
 
-// 💾 Salvar no localStorage
+// Salva no localStg
 function salvarNoLocalStorage() {
   localStorage.setItem('usuarios', JSON.stringify(dados));
 }
 
-// 🚀 Inicializa a tabela completa
+// Inicializa a tabela
 renderizarTabela(dados);
 

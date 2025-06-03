@@ -75,11 +75,11 @@ button {
 }
 
 button:first-of-type {
-  background-color: #3498db; /* Editar */
+  background-color: #3498db
 }
 
 button:last-of-type {
-  background-color: #e74c3c; /* Excluir */
+  background-color: #e74c3c;
 }
 
 button:hover {
